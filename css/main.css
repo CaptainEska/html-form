@@ -18,6 +18,10 @@ body {
   text-align: center;
 }
 
+input {
+  padding: 10px 10px;
+}
+
 textarea {
   resize: none;
 }
