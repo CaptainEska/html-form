@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML form</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Registration</h1>
+    <form action="#" method="POST">
+      <p>
+        <label>Your name: &nbsp;
+          <input type="text" name="first-name" placeholder="Your name">
+        </label>
+      </p>
+      <p>
+        <label>Your surname: &nbsp;
+          <input type="text" name="second-name" placeholder="Your surname">
+        </label>
+      </p>
+      <p>
+        <label>Your email: &nbsp;
+          <input type="email" name="email" placeholder="olegpavliv@gmail.com">
+        </label>
+      </p>
+      <p>
+        <label>Your password: &nbsp;
+          <input type="text" name="password" placeholder="Your passoword">
+        </label>
+      </p>
+      <p>
+        Your gender: &nbsp; <br>
+        <label>Male<input type="radio" name="gender" value="male"></label>
+        <label>Female<input type="radio" name="gender" value="male"></label>
+        <label>Other<input type="radio" name="gender" value="male"></label>
+      </p>
+      <p>
+        Choose your favourite car or cars: <br>
+        <label>Audi<input type="checkbox" name="audi" value="audi"></label>
+        <label>BMW<input type="checkbox" name="bmw" value="bmw"></label>
+        <label>Fiat<input type="checkbox" name="fiat" value="fiat"></label>
+        <label>FORD<input type="checkbox" name="ford" value="ford"></label>
+      </p>
+      <p>
+        Your favourite color: <br>
+        <input type="color" name="color">
+      </p>
+      <p>
+        Your message: <br>
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Your message"></textarea>
+      </p>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
+</body>
+
+</html>
